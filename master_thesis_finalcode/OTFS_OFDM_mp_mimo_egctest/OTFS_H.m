@@ -1,3 +1,5 @@
+%Owner is Zuoyuan Fu, from Communication Systems, KTH.
+%%
 function  Heff = OTFS_H(N,M,taps,delay_taps,Doppler_taps,chan_coef)    %[taps,delay_taps,Doppler_taps,chan_coef]
 
 pmatrix = zeros(N*M,N*M);
