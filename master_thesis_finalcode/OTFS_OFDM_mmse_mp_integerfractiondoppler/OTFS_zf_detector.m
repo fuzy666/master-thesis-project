@@ -1,3 +1,5 @@
+%Owner is Zuoyuan Fu, from Communication Systems, KTH.
+%%
 function x_est = OTFS_zf_detector(N,M,taps,delay_taps,Doppler_taps,chan_coef,y)
 
 yv = reshape(y,N*M,1);
