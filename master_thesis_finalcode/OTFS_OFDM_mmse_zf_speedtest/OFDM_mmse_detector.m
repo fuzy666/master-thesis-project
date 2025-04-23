@@ -1,3 +1,5 @@
+%Owner is Zuoyuan Fu, from Communication Systems, KTH.
+%%
 function x_est = OFDM_mmse_detector(N,M,taps,delay_taps,Doppler_taps,chan_coef,sigma,y)
 
 yv = reshape(y,N*M,1);
